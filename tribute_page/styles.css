@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://i.pinimg.com/736x/f4/9a/16/f49a16d1184545048a6409ec48251ba1.jpg');
+    
+    background-size: 400px;
+    color: #333;
+}
+
+#main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+   background-color: aliceblue;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 2%;
+}
+
+#title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #2c3e50;
+}
+#para{
+    margin-top: 0;
+    text-align: center;
+}
+#img-div {
+    text-align: center;
+    margin-bottom: 20px;
+   
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-caption {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #7f8c8d;
+}
+
+#tribute-info {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    text-align: justify;
+    
+}
+
+#best-movies, #awards {
+    margin-bottom: 20px;
+    
+}
+
+
+h2 {
+    color: #e74c3c;
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: square;
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+}
+
+#tribute-link {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px 0;
+    background-color: #e74c3c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f3f3f3;
+    color: rgb(129, 5, 5);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#footer p {
+    margin: 0;
+    
+}
+#movie-link{
+    color: #2c3e50;
+}
+#movie-link:hover{
+    color: #e74c3c;
+}
