@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+   background-image: url('https://images.pexels.com/photos/2161449/pexels-photo-2161449.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    margin: 0;
+    padding: 20px;
+}
+
+#title {
+    text-align: center;
+    color: #ffffff;
+}
+
+#description {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+#survey-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ecebeb;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], input[type="number"], select, textarea {
+    width: 95%;
+    padding: 10px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.inline-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+label[for="recommend-yes"], label[for="recommend-no"], 
+label[for="service1"], label[for="service2"], label[for="service3"] {
+    font-weight: normal;
+}
+
+#comments {
+    min-height: 100px;
+}
+
+#submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #218838;
+}
