@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rust Technical Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgv1JFmFGGjHFGLqRsK3sOSXZebrrBoHBFtg&s" alt="Rust Logo"><br> Documentation</header>
+        <a href="#Introduction_to_Rust" class="nav-link">Introduction to Rust</a>
+        <a href="#Variables_and_Data_Types" class="nav-link">Variables and Data Types</a>
+        <a href="#Functions_in_Rust" class="nav-link">Functions in Rust</a>
+        <a href="#Ownership_and_Borrowing" class="nav-link">Ownership and Borrowing</a>
+        <a href="#Error_Handling" class="nav-link">Error Handling</a>
+        <a href="#Concurrency_in_Rust" class="nav-link">Concurrency in Rust</a>
+    </nav>
+    
+    <main id="main-doc">
+        <!-- Introduction to Rust -->
+        <section id="Introduction_to_Rust" class="main-section">
+            <header>Introduction to Rust</header>
+            <p>Rust is a systems programming language focused on safety and concurrency.</p>
+            <p>It guarantees memory safety without needing a garbage collector.</p>
+            <p>Rust is known for its performance and reliability, making it ideal for low-level system development.</p>
+            <code>fn main() { println!("Hello, world!"); }</code>
+            <ul>
+                <li>Safe Memory Management</li>
+                <li>Zero-cost Abstractions</li>
+                <li>Concurrency without Data Races</li>
+            </ul>
+        </section>
+        
+        <!-- Variables and Data Types -->
+        <section id="Variables_and_Data_Types" class="main-section">
+            <header>Variables and Data Types</header>
+            <p>In Rust, variables are immutable by default.</p>
+            <p>You can make a variable mutable by using the <code>mut</code> keyword.</p>
+            <p>Rust has various data types, including scalar types and compound types.</p>
+            <code>let x = 5; // Immutable</code>
+            <code>let mut y = 10; // Mutable</code>
+            <ul>
+                <li>Scalar Types: integers, floats, booleans, and characters</li>
+                <li>Compound Types: tuples and arrays</li>
+            </ul>
+        </section>
+        
+        <!-- Functions in Rust -->
+        <section id="Functions_in_Rust" class="main-section">
+            <header>Functions in Rust</header>
+            <p>Functions in Rust are defined using the <code>fn</code> keyword.</p>
+            <p>They allow you to encapsulate and reuse code, improving modularity.</p>
+            <p>Functions can return values using the return keyword or implicitly returning the last expression.</p>
+            <code>fn add(x: i32, y: i32) -> i32 { x + y }</code>
+            <ul>
+                <li>Function Signatures</li>
+                <li>Returning Values</li>
+                <li>Statements vs. Expressions</li>
+            </ul>
+        </section>
+        
+        <!-- Ownership and Borrowing -->
+        <section id="Ownership_and_Borrowing" class="main-section">
+            <header>Ownership and Borrowing</header>
+            <p>Ownership is a unique feature of Rust that ensures memory safety.</p>
+            <p>Each value in Rust has a single owner, and when the owner goes out of scope, the value is dropped.</p>
+            <p>Borrowing allows you to reference a value without taking ownership of it.</p>
+            <code>let s1 = String::from("hello");</code>
+            <code>let s2 = &s1; // Borrowing</code>
+            <ul>
+                <li>Ownership Rules</li>
+                <li>Borrowing and References</li>
+                <li>Mutable vs. Immutable Borrowing</li>
+            </ul>
+        </section>
+        
+        <!-- Error Handling -->
+        <section id="Error_Handling" class="main-section">
+            <header>Error Handling</header>
+            <p>Rust provides powerful tools for error handling, primarily through the <code>Result</code> and <code>Option</code> types.</p>
+            <p>These types allow you to safely handle errors without crashing your program.</p>
+            <p>Rust encourages using pattern matching to handle different cases of errors.</p>
+            <code>let result: Result<i32, &str> = Ok(42);</code>
+            <code>let option: Option<i32> = Some(42);</code>
+            <ul>
+                <li>Result and Option Types</li>
+                <li>Pattern Matching</li>
+                <li>Panic and Unwinding</li>
+            </ul>
+        </section>
+        
+        <!-- Concurrency in Rust -->
+        <section id="Concurrency_in_Rust" class="main-section">
+            <header>Concurrency in Rust</header>
+            <p>Rust has built-in support for concurrency, making it easy to write parallel and concurrent programs.</p>
+            <p>Rust’s ownership system ensures that data races are impossible at compile time.</p>
+            <p>Threads and channels are the primary concurrency primitives in Rust.</p>
+            <code>use std::thread;</code>
+            <code>let handle = thread::spawn(|| { println!("Hello from a thread!"); });</code>
+            <ul>
+                <li>Threads and Channels</li>
+                <li>Shared State</li>
+                <li>Message Passing</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
