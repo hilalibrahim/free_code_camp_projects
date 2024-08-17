@@ -11,7 +11,7 @@ This repository contains a collection of projects I completed as part of the Fre
 ### 1. Tribute Page
 **Description**: A simple webpage dedicated to a famous person, featuring a brief biography, best movies, awards, and a list of their notable achievements.
 
-- **Link**: [Tribute Page](https://github.com/hilalibrahim/free_code_camp_projects/tribute-page)
+
 - **Technologies**: HTML, CSS
 - **Features**: 
   - Responsive design
@@ -21,7 +21,6 @@ This repository contains a collection of projects I completed as part of the Fre
 ### 2. Survey Form
 **Description**: A survey form web app that allows users to provide feedback or input. The design is unique and personal, incorporating custom styling.
 
-- **Link**: [Survey Form](https://github.com/hilalibrahim/free_code_camp_projects/survey-form)
 - **Technologies**: HTML, CSS
 - **Features**: 
   - Custom styling
@@ -31,7 +30,7 @@ This repository contains a collection of projects I completed as part of the Fre
 ### 3. Technical Documentation Page
 **Description**: A documentation page focused on Rust programming language, designed to fulfill specific user stories with a clean and structured layout.
 
-- **Link**: [Technical Documentation Page](https://github.com/hilalibrahim/free_code_camp_projects/technical-documentation)
+
 - **Technologies**: HTML, CSS
 - **Features**: 
   - Side navigation for easy access to different sections
@@ -62,4 +61,3 @@ If you have any questions or feedback, feel free to reach out to me via [GitHub]
 
 ---
 
-Feel free to adjust this `README.md` file to better suit your needs!
